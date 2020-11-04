@@ -1,2 +1,2 @@
-# Useful tools
-This will be a growning set of toosl I found to be useful.
+# Tools
+A growing set of useful tools.
