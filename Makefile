@@ -13,4 +13,8 @@ bogus: bogus.c
 bogus2: bogus2.c
 	gcc -o bogus2 bogus2.c
 
+bogus3: bogus3.c
+	gcc -o bogus3 bogus3.c
 
+bogus4: bogus4.c
+	gcc -o bogus4 bogus4.c
