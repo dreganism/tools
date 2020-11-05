@@ -1,0 +1,22 @@
+# How to remove non empty Directory in Linux
+Source: https://www.cyberciti.biz/faq/how-to-remove-non-empty-directory-in-linux/
+
+Author: Vivek Gite Last updated: November 22, 2019 1 comment
+
+Iam trying to delete a directory in Linux using the rmdir command. However, I am getting an error message that read as follows:
+
+rmdir: failed to remove 'trip-pictures': Directory not empty
+
+How can I remove non empty directory in Linux using the cli?
+
+There are two commands that one can use to delete non empty directories in Linux operating system:
+1.  rmdir command – Delete directory only if it empty
+2.  rm command – Delete directory and all files even if it is NOT empty
+
+Procedure to remove non empty directory in Linux
+The syntax is:
+
+rm -rf dir-name
+rm -rf /path/to/dir/name
+
+Be careful when you use the rm command with -r and -f options. The -r option remove directories and their contents recursively including all files. The -f option to rm command ignore nonexistent files and arguments, never prompt for anything. There is no undo option. So you have to be very careful with rm -rf command. Let us see some examples.
