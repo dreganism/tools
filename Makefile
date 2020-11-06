@@ -18,3 +18,6 @@ bogus3: bogus3.c
 
 bogus4: bogus4.c
 	gcc -o bogus4 bogus4.c
+
+bogus5: bogus5.c
+	gcc -o bogus5 bogus5.c
